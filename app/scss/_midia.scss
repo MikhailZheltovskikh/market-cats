@@ -1,0 +1,141 @@
+@media (max-width: 1170px) {
+   .form__button {
+      display: block;
+      margin-left: 0;
+      margin-top: 20px;
+      width: 100%;
+   }
+}
+@media (max-width: 901px) {
+   .products__item {
+      width: 50%;
+   }
+}
+@media (max-width: 850px) {
+   .menu {
+      padding-left: 20px;
+   }
+   .menu__btn {
+      display: block;
+      width: 30px;
+      cursor: pointer;
+      div {
+         background-color: #fff;
+         height: 3px;
+         & + div {
+            margin-top: 5px;
+         }
+      }
+   }
+   .menu__list {
+      display: none;
+      padding: 15px;
+      background-color: #000;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+
+      li {
+         display: block;
+         text-align: center;
+
+         & + li {
+            margin-left: 0;
+            margin-top: 5px;
+         }
+         a {
+            display: block;
+         }
+      }
+   }
+   .header__info {
+      width: 100%;
+      text-align: right;
+   }
+   .offer__inner {
+      display: block;
+   }
+   .offer__inner {
+      padding: 40px 30px;
+   }
+   .offer__text {
+      &-title {
+         font-size: 36px;
+         margin-bottom: 10px;
+      }
+      p {
+         font-size: 18px;
+      }
+   }
+   .email {
+      input {
+         width: 100%;
+      }
+   }
+   .offer__form {
+      margin-top: 15px;
+   }
+}
+
+@media (max-width: 650px) {
+   .products__item {
+      width: 100%;
+   }
+   .header__search {
+      font-size: 28px;
+   }
+   .header__info-tel {
+      font-size: 18px;
+   }
+   .header__info-text {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 576px) {
+   .products__item-content {
+      padding: 10px;
+   }
+   #modal {
+      bottom: 10px;
+   }
+   .products__more {
+      width: 100%;
+      padding: 24px 15px;
+   }
+   .offer__text-title {
+      line-height: 40px;
+   }
+   .offer__text p {
+      width: 100%;
+   }
+}
+@media (max-width: 520px) {
+   .products__filter {
+      display: block;
+   }
+   .products__filter-box {
+      margin-left: 0;
+      margin-top: 15px;
+   }
+   .products__filter-dropdown {
+      margin-left: 25px;
+   }
+   .form__button {
+      padding: 22px 15px 26px;
+   }
+   .email input {
+      padding: 22px 15px 26px 15px;
+   }
+}
+
+
+@media (min-width: 851px) {
+   .menu__list {
+      display: block !important;
+   }
+}
+
